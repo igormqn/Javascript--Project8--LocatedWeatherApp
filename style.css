@@ -1,0 +1,26 @@
+html, body {
+    background: #20d620;
+    background: -webkit-linear-gradient(to right, #FFFFFF, #92d625, #048f26);
+    background: linear-gradient(to right, #FFFFFF, #39d62b, #ffffff);
+    min-width: 400px;
+    font-family: Arial, sans-serif;
+  }
+  
+  #city {
+    text-transform: capitalize;
+  }
+  
+  #temperature {
+    font-size: 4em;
+  }
+  
+  #change-city {
+    background: rgba(113, 152, 177, 0.3);
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    padding: 15px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
